@@ -1,0 +1,103 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#user demo"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user login gmail",
+        "description": "",
+        "id": "login-google;user-login-gmail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8629398600,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#Scenario Outline: user login gmail"
+              }
+            ],
+            "line": 7,
+            "name": "user is on gmail page",
+            "match": {
+              "location": "stepdefinitionLogin.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1563582400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sign in",
+            "match": {
+              "location": "stepdefinitionLogin.user_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2620202100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters username and password",
+            "match": {
+              "location": "stepdefinitionLogin.user_enters_user_and_pass(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "user1",
+                  "pwd"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicks on login button",
+            "match": {
+              "location": "stepdefinitionLogin.clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 191600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is navigated to gmail",
+            "match": {
+              "location": "stepdefinitionLogin.user_is_navigated_to_gmail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login google",
+    "description": "",
+    "id": "login-google",
+    "keyword": "Feature",
+    "uri": "C:/Users/Pratima Sharma/eclipse-workspace/cucumberProj/src/main/java/features/login.feature"
+  }
+]

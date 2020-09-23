@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.813447">
+    <testcase classname="Login google" name="user login gmail" time="12.813447">
+        <system-out><![CDATA[Given user is on gmail page.................................................passed
+When user sign in...........................................................passed
+Then user enters username and password......................................passed
+Then clicks on login button.................................................passed
+Then user is navigated to gmail.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
